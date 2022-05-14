@@ -14,4 +14,6 @@ const messages = [
 const rand = messages[Math.floor(Math.random() * messages.length)];
 
 
-console.log(rand)
+const message = () => `MOTIVATIONAL MESSAGE OF THE DAY: "${rand}"`;
+
+console.log(message());
